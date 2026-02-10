@@ -13,26 +13,11 @@ header{
   animation-duration: 4s;
 }
 }
-li{
-	list-style:flex;
-	display:flex;
-	justify-content:space-evenly;
-	padding:10px;
-	border-radius:7px;
-}
+l
 h2{
 	justify-content:space-evenly;
 }
-i{
-	margin: 10px;
-	border-radius:50;
-	box-sizing:border-box;
-	background:white;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	text-decoration:none;
-	
+
 	
 }
 h1{
@@ -116,3 +101,4 @@ container div{
 	padding:20;
 	font-size:24;
 }
+
