@@ -196,48 +196,5 @@ h1 {
   border-radius: 5px;
   overflow: hidden;
   animation: zoomIn 0.5s;
-}
+}}
 
-@keyframes zoomIn {
-  from {transform: scale(0.6);}
-  to {transform: scale(1);}
-}
-
-.modal.show {
-  display: flex;
-  opacity: 1;
-}
-
-/* Close button */
-.close {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: #ffffff;
-  font-size: 35px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: transform 0.3s;
-}
-
-/* Caption of modal image */
-.caption {
-  position: absolute;
-  bottom: 15px;
-  width: 100%;
-  text-align: center;
-  color: #ffffff;
-  font-size: 24px;
-}
-
-@media screen and (max-width: 768px) {
-  .gallery-item {
-    width: calc(50% - 20px);
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .gallery-item {
-    width: calc(100% - 20px);
-  }
-}
