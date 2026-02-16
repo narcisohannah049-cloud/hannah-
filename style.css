@@ -158,3 +158,13 @@ div{
 		from {background-color:red}
 	    to{background-color: yellow}
 	}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: myAnimation;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
