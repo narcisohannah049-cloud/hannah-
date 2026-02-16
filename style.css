@@ -145,4 +145,16 @@ h2{
 	text-shadow:1px 1px 2pz black, 0 0 25px blue, 0 0 5px darkblue;
 }
 	 
+div{
+	width:100px;
+	height:100px;
+	background-color:red;
+	animation-name:myAnimation;
+	animation-duration:4px;
+	
+}
 
+	myAnimation{
+		from {background-color:red}
+	    to{background-color: yellow}
+	}
