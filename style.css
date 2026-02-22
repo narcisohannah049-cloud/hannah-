@@ -102,12 +102,12 @@ container div{
 	font-size:24;
 }
 
-.container {
+container {
   position: relative;
   width: 50%;
 }
 
-.image {
+image {
   display: block;
   width: 100%;
   height: auto;
@@ -181,5 +181,34 @@ container div {
   padding: 10px;
   text-align: center;  
   font-size: 30px;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	font-family:sans-serif;
+	
+}
+
+body{
+	background-color:f0f0f0;
+	
+}
+
+card-container{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	margin:100px;
+}
+
+card{
+	width:325;
+	background-color:#f0f0f0;
+	border-radius:8px;
+	overflow:hidden;
+	box-shadow:0px 2px; 4px rgba(0,0,0,0.2);
+	margin:20px;
 }
 
