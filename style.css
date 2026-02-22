@@ -219,4 +219,24 @@ float:left;
 padding-top:10px;
 }
 
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+}
 
+body{
+	backgound:rgb(27,27,27);
+}
+
+container{
+	display:flex;
+	justify-content:cente;
+}
+
+card{
+	backgroung:white;
+	width:27px;
+	height:400;
+	margin:10px;
+}
