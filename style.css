@@ -313,6 +313,92 @@ card button:hover{
 
 
 
+*{
+	margin:0;
+	padding:0;
+	font-family:"Poppins",sans-serif
+}
+
+	body{
+		width:100px;
+		height:100px;
+		
+	}
+
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background:#16384c;
+}
+
+.container{
+	position:relative;
+	width:1100px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:wrap;
+	padding:3px;
+}
+
+.condainer .card {
+	position:relative;
+	max-widht:300px;
+	heighth:215px;
+	background-color:#fff;
+	margin:3opx 10px;
+	padding:20px 15px;
+	display:flex;
+	box-shadow:0 5px 20px  rgba(0,0,0,0.5);
+	transition: 0.3s ease-in-out;
+}
+
+.container .card:hover{
+	height:420px;
+	
+}
+
+.container .card .imgBx{
+	position:relative;
+	width:260px;
+	height:260px;
+	top:-60px;
+	left:20px;
+	z-inside:1;
+	box-shaddow:0 5px 20px rgba(0,0,0,0.5);
+	
+}
+
+.container .card .imgBx img {
+	max-width:100%;
+	border-radius:4px;	
+
+}
+
+.container .card .content{
+	position:relative;
+	margim-top:-140px;
+	padding:10px 15px;
+	text-align:center;
+	color:#111;
+	visibility:hidden;
+	opacity:0;
+	transition:0.3s ease-in-out;
+}
+
+.container .card:hover .content{
+	visibility:visible;
+	opacity:1;
+	margin-top:-40px;
+	transition-deley:0.3s;
+}
+
+
+
+
+
+
 
 
 
