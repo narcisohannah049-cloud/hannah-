@@ -4,11 +4,8 @@ body{
 	animation:fadeln 1.5 ease-in;
 }
 
-keyframe fadelnpage{
-	from{
-	opacity:0;
-}
-to{
+fadelnpage{
+to
 	opacity:1;
 }
 
@@ -280,6 +277,7 @@ card-content button{
 card button:hover{
 	background-color:#45a049;
 }
+
 
 
 
