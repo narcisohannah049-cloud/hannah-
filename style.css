@@ -230,20 +230,30 @@ card{
 	text-align:center:
 }
 
-car h2{
+card h2{
 	margin-bottons:10px;
 	color:#333;
 	
 }
+card-image{
+	height:200px;
+	background-color:url("student.jpg);
+	background-image:cover:
+	backgound-position:center;
+}
+	card-content{
+		padding:15px;
+		text-align:center;
+	}
 
-caze: p {
+card: p {
 	font-size:14px;
 	color:#666;
 	margin-bottom:15px;
 	
 }
 
-card button{
+card-content button{
 	background-color:#4CAF50;
 	color:white;
 	border:none;
@@ -255,6 +265,7 @@ card button{
 card button:hover{
 	background-color:#45a049;
 }
+
 
 
 
