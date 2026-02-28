@@ -332,7 +332,7 @@ body{
 	background:#16384c;
 }
 
-.container{
+container{
 	position:relative;
 	width:1100px;
 	display:flex;
@@ -342,7 +342,7 @@ body{
 	padding:3px;
 }
 
-.condainer .card {
+condainer card {
 	position:relative;
 	max-widht:300px;
 	heighth:215px;
@@ -354,12 +354,12 @@ body{
 	transition: 0.3s ease-in-out;
 }
 
-.container .card:hover{
+container card:hover{
 	height:420px;
 	
 }
 
-.container .card .imgBx{
+container card imgBx{
 	position:relative;
 	width:260px;
 	height:260px;
@@ -370,13 +370,13 @@ body{
 	
 }
 
-.container .card .imgBx img {
+container card imgBx img {
 	max-width:100%;
 	border-radius:4px;	
 
 }
 
-.container .card .content{
+container card content{
 	position:relative;
 	margim-top:-140px;
 	padding:10px 15px;
@@ -387,12 +387,13 @@ body{
 	transition:0.3s ease-in-out;
 }
 
-.container .card:hover .content{
+container card:hover content{
 	visibility:visible;
 	opacity:1;
 	margin-top:-40px;
 	transition-deley:0.3s;
 }
+
 
 
 
