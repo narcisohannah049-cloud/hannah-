@@ -212,3 +212,49 @@ card{
 	margin:20px;
 }
 
+body{
+	font-family:Arial,sans-serif;
+	background-color:#f4f6f9;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	height:100vh;
+}
+
+card{
+	background-color:#ffffff;
+	width:320px;
+	padding:20px;
+	border-radius:1px;
+	border-shadow:0 4px 8px rgba(0,0,0,0.2);
+	text-align:center:
+}
+
+car h2{
+	margin-bottons:10px;
+	color:#333;
+	
+}
+
+caze: p {
+	font-size:14px;
+	color:#666;
+	margin-bottom:15px;
+	
+}
+
+card button{
+	background-color:#4CAF50;
+	color:white;
+	border:none;
+	padding:8px 15px;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+card button:hover{
+	background-color:#45a049;
+}
+
+
+
