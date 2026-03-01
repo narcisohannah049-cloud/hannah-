@@ -160,6 +160,9 @@ nav ul li a:hover:after{
 	display:none:
 }
 
+.tab-content.active-tab{
+	display:block;
+}
 
 
 
