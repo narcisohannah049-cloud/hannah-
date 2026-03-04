@@ -171,6 +171,13 @@ nav ul li a:hover:after{
 	
 }
 
+.services-list{
+	display:grid;
+	grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+	grid-grap: 40px;
+	margin-top: 50px;
+	
+}
 
 
 
