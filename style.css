@@ -179,6 +179,14 @@ nav ul li a:hover:after{
 	
 }
 
+.services-list div{
+	background:#262626;
+	padding:40px;
+	font-size:13px;
+	font-waight:300px;
+	border-right:10px;
+}
+
 
 
 
