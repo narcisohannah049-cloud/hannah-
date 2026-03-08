@@ -285,10 +285,94 @@ sign">Sign up with GitHub</button>
 <script src="main.js" defer></script>
 	
 
+(function () {
+
+function strengthScore(pw) {
+
+}
+
+if (!pw) return 0;
+
+let score Math.min(6, pw.length) * 6;
+
+if (/[A-Z]/.test(pw)) score += 10;
+
+if (/[0-9]/.test(pw)) score += 10;
+
+if (/[^A-Za-z0-9]/.test(pw)) score += 14;
+
+return Math.min(100, score);
+
+function barColorByScore(score) {
+
+if (score <30) return 'linear-gradient(90deg, var(--error), #ff907a)'; if (score 60) return 'linear-gradient(90deg, #ffd166, var(--accent-1))';
+
+}
+
+return 'linear-gradient (90deg, var(-accent-1), var(-accent-2))';
+
+document.addEventListener('DOMContentLoaded', () => {
+
+const form document.getElementById('signup-form');
+
+const btn = document.getElementById('submit-btn');
+
+const status document.getElementById('status');
+
+const pw document.getElementById('password');
+
+const confirm = document.getElementById('confirm');
+
+const toggle document.getElementById('pw-toggle');
+
+const strengthBar document.getElementById('strength-bar');
+
+toggle?.addEventListener('click', () => { const is pw.type === 'password':
+
+pw.type is? 'text': 'password';
+
+confirm.type = is? 'text': 'password';
+
+toggle.setAttribute('aria-label', is? 'Hide password': 'Show
+
+password');
+
+});
+
+pw?.addEventListener('input', () => {
+
+const score = strengthScore(pw.value); if (strengthBar) {
+
+strengthBar.style.width = score + '%';
+
+strengthBar.style.background barColorByScore (score);
+
+}
+
+});
+
+function validate() {
+
+const name = form.name.value.trim();
+
+const email form.email.value.trim(); const pass = pw.value;
+
+const conf confirm.value;
+
+
+
+
+
+
+
+
+
+		 
 </body>
 
 
 </html>
+
 
 
 
