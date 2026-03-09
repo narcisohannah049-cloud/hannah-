@@ -268,8 +268,27 @@ nav ul li a:hover:after{
 	overflow:hidden;
 }
 
+.box{
+	height:200px;
+	width:200px;
+	background:lightblue;
 
+/*	transition-property:transform;
+	transition-duration:3s ;
+	transition-timing-funtion:ease ;
+	transition-deley:1s ;
+	*/
 
+*/ transition:tranform 2s ease 0s, 
+background-color 2s ease 0s;*/
+
+transition: all 1s ease-in-out;
+}
+
+.box:hover{
+	width:400px;
+	background-color:coral;
+}
 
 
 
