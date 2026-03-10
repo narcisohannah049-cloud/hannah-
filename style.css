@@ -393,13 +393,13 @@ web img {
   font-size: 24px;
 }
 
-a{
+h1 a p{
   display: flex;
   flex-wrap: nowrap;
   background-color: DodgerBlue;
 }
 
-a{
+h1 a p{
   background-color: #f1f1f1;
   width: 100px;
   margin: 10px;
@@ -407,4 +407,5 @@ a{
   text-align: center;  
   font-size: 30px;
 }
+
 
