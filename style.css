@@ -317,6 +317,35 @@ ul li a{
 }
 
 
+ul li a {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: myAnimation;
+  animation-duration: 4s;
+}
+
+servise list {
+	bakground-color:pink;
+	background-color:red;
+	background-color: lightblue;
+	background-color:gray;
+}
+
+
+servise list{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: myAnimation;
+  animation-duration: 4s;
+  animation-direction: reverse; 
+
+}
+
+
+
 img{
 	clip-path:circle(50);
 }
@@ -363,4 +392,5 @@ web img {
   padding: 20px;
   font-size: 24px;
 }
+
 
