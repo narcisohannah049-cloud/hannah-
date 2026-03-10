@@ -413,6 +413,12 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: width 2s;
+}
 
 
 
