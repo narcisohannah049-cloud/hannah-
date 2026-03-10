@@ -408,4 +408,37 @@ h1 a p{
   font-size: 30px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+servise list {
+  display: flex;
+  flex-direction: row;
+}
+
+servise list {
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
