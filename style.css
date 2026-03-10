@@ -48,8 +48,14 @@ videoBG{
 }
 
 body{
-	background:url('
+	
+	
+	background:url('https://www.youtube.com/embed/yy4DLq25Ubw" title="Doraemon Theme Song (with LYRICS)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen');
+background:url('')
+
 }
+
+
 nav ul li {
 	display:inline-block;
 	list-style:none;
@@ -377,6 +383,7 @@ servise list{
   animation-direction: reverse; 
 
 }
+
 
 
 
