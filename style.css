@@ -72,6 +72,23 @@ nav ul li a:hover:after{
 .header-text h1{
 	
 }
+.container {
+  position: relative;
+}
+
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 20px;
+}
+
+img { 
+  width: 100%;
+  height: auto;
+  opacity: 0.5;
+}
+
 
 /* ----------about------ */
 #about{
@@ -343,6 +360,7 @@ servise list{
   animation-direction: reverse; 
 
 }
+
 
 
 
