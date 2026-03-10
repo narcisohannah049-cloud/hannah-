@@ -6,8 +6,8 @@
 }
 
 body{
-	background:#080808;
-	color:#fff;
+	background:gray;
+	color:lightblue;
 }
 
 header{
@@ -360,6 +360,7 @@ servise list{
   animation-direction: reverse; 
 
 }
+
 
 
 
