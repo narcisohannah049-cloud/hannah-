@@ -13,6 +13,14 @@ body{
 	color:lightblue;
 }
 
+#header{
+	width:100%;
+	height:100vh;
+	background-image:url(https://th.bing.com/th/id/OIP.tJXozNqyLbqQOqLCA8RSNgHaHD?w=198&h=189&c=7&r=0&o=7&pid=1.7&rm=3);
+	background-size:cover;
+	background-position:center;
+}
+
 
 
 
