@@ -289,6 +289,13 @@ transition: all 1s ease-in-out;
 }
 
 
+ul li a {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: myAnimation;
+  animation-duration: 4s;
+}
 
 
 
