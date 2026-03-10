@@ -32,30 +32,7 @@ nav{
 	width:140px;
 }
 
-videoBG{
-	width:100%
-	height:auto;
-}
-
-videoBG{
-	width:auto;
-	height:100%;
-}
-
-
-videoBG{
-	display:none;
-}
-
-body{
-	
-	
-	background:url('https://www.youtube.com/embed/yy4DLq25Ubw" title="Doraemon Theme Song (with LYRICS)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen');
-background:url('https://youtu.be/SCQ1RL3X-Gw?t=4')
-backgrounf-size:cover;
-}
-
-
+v
 nav ul li {
 	display:inline-block;
 	list-style:none;
@@ -383,6 +360,7 @@ servise list{
   animation-direction: reverse; 
 
 }
+
 
 
 
