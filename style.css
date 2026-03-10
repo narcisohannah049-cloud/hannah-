@@ -5,6 +5,10 @@
 	box-sizing:border-box;
 }
 
+h1 {
+  text-shadow: 2px 2px;
+}
+
 body{
 	background:gray;
 	color:lightblue;
@@ -408,6 +412,7 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
+
 
 
 
