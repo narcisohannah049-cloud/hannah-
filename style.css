@@ -17,7 +17,7 @@ header{
 	background-position:center;
 }
 
-Ccontainer{
+container{
 	padding: 10px 10%;
 }
 
@@ -32,7 +32,7 @@ nav{
 	width:140px;
 }
 
-v
+
 nav ul li {
 	display:inline-block;
 	list-style:none;
@@ -230,10 +230,6 @@ nav ul li a:hover:after{
 	transform:translateY(-10px);
 }
 
-#porfolio{
-	padding:50px 0;
-}
-
 .work-lost{
 	display:grid;
 	grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
@@ -354,6 +350,7 @@ servise list{
   animation-direction: reverse; 
 
 }
+
 
 
 
