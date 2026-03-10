@@ -420,6 +420,20 @@ div {
   transition: width 2s;
 }
 
+​div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: myAnimation;
+  animation-duration: 4s;
+}
+
+myAnimation {
+    background-color: red;
+    background-color: yellow;
+   background-color: blue;
+   background-color: green;
+}
 
 
 
